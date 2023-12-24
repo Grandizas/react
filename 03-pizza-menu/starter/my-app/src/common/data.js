@@ -42,3 +42,5 @@ const pizzaData = [
     soldOut: false,
   },
 ];
+
+module.exports = pizzaData;
