@@ -1,13 +1,11 @@
-import "./App.css";
 import Logo from "./Logo";
 import PackingList from "./PackingList";
 import Stats from "./Stats";
 import Form from "./Form";
 import React, { useState } from "react";
+import { initialItems } from "./App";
 
-const initialItems = [];
-
-function App() {
+export function App() {
   const [items, setItems] = useState(initialItems);
 
   return (
@@ -25,9 +23,3 @@ function App() {
     </div>
   );
 }
-
-/* ----------------------------------- */
-/*                 STATS
-/* ----------------------------------- */
-
-export default App;
